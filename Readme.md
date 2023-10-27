@@ -118,9 +118,9 @@ This will print "hello world!"
 
 Returns the greatest of all elements in a vector <int> type
 
-    ```c++
-    cout<<sum({1,2,3,4,5});
-    ```
+```c++
+cout<<sum({1,2,3,4,5});
+```
 
 This will print 15
 
@@ -128,9 +128,9 @@ This will print 15
 
 Returns the greatest of all elements in a vector <int> type
 
-    ```c++
-    cout<<greatest({1,2,3,4,5});
-    ```
+```c++
+cout<<greatest({1,2,3,4,5});
+```
 
 This will print 5
 
@@ -138,9 +138,9 @@ This will print 5
 
 Returns the minimum of all elements in a vector <int> type
 
-    ```c++
-    cout<<minimum({1,2,3,4,5});
-    ```
+```c++
+cout<<minimum({1,2,3,4,5});
+```
 
 This will print 1
 
@@ -148,9 +148,9 @@ This will print 1
 
 Returns the index of the smallest element in a vector <int> type
 
-        ```c++
-        cout<<minimumIndex({1,2,3,4,5});
-        ```
+```c++
+cout<<minimumIndex({1,2,3,4,5});
+```
 
 This will print 0
 
@@ -158,9 +158,9 @@ This will print 0
 
 Returns the average of all elements in a vector <int> type
 
-    ```c++
-    cout<<average({1,2,3,4,5});
-    ```
+```c++
+cout<<average({1,2,3,4,5});
+```
 
 This will print 3
 
@@ -168,9 +168,9 @@ This will print 3
 
 Returns the vector <int> of all the indexes of the second parameter in the first parameter
 
-    ```c++
-    vector <int> occ = occurences({1,2,3,4,5},3);
-    ```
+```c++
+vector <int> occ = occurences({1,2,3,4,5},3);
+```
 
 This will return a vector: {2}
 
@@ -178,23 +178,23 @@ This will return a vector: {2}
 
 Returns the reversed version of a vector of any type
 
-        ```c++
-        vector <int> reversed = reverse({1,2,3,4,5});
-        ```
+```c++
+vector <int> reversed = reverse({1,2,3,4,5});
+```
 
 This will return a vector: {5,4,3,2,1}
-`c++
-        vector <string> reversed = reverse({"Hello","World","!"});
-        `
+```c++
+vector <string> reversed = reverse({"Hello","World","!"});
+```
 This will return a vector: {"!","World","Hello"}
 
 #### cut()
 
 Returns a vector of any type with the elements exclusive of from index1-index2
 
-    ```c++
-    vector <int> cutted = cut({1,2,3,4,5},1,3);
-    ```
+```c++
+vector <int> cutted = cut({1,2,3,4,5},1,3);
+```
 
 This will return a vector: {1,4,5}
 
@@ -202,9 +202,9 @@ This will return a vector: {1,4,5}
 
 Returns a vector of anytime exclusive of all occurences of the second parameter in the first parameter
 
-    ```c++
-    vector <int> removed = removeAll({1,3,2,3,4,3,5,3},3);
-    ```
+```c++
+vector <int> removed = removeAll({1,3,2,3,4,3,5,3},3);
+```
 
 This will return a vector: {1,2,4,5}
 
@@ -212,15 +212,15 @@ This will return a vector: {1,2,4,5}
 
 Returns a sorted vector of any type in ascending order
 
-    ```c++
-    vector <int> sorted = sort({1,3,2,3,4,3,5,3});
-    ```
+```c++
+vector <int> sorted = sort({1,3,2,3,4,3,5,3});
+```
 
 This will return a vector: {1,2,3,3,3,3,4,5}
 
-    ```c++
-    vector <string> sorted = sort({"AAC","ABA","AAB","AAA"});
-    ```
+```c++
+vector <string> sorted = sort({"AAC","ABA","AAB","AAA"});
+```
 
 This will return a vector: {"AAA","AAB","AAC","ABA"}
 
@@ -228,9 +228,9 @@ This will return a vector: {"AAA","AAB","AAC","ABA"}
 
 Returns a vector after replacing index1-index2 of param1 with param2
 
-    ```c++
-    vector <int> replaced = replace({1,2,3,4,5},{0,0,0},1,3);
-    ```
+```c++
+vector <int> replaced = replace({1,2,3,4,5},{0,0,0},1,3);
+```
 
 This will return a vector: {1,0,0,0,5}
 
@@ -238,8 +238,9 @@ This will return a vector: {1,0,0,0,5}
 
 Return a vector from param1 with all occurences of param2 replaced with param3
 
-    ```c++
-    vector <int> replaced = replaceAll({1,3,2,3,4,3,5,3},3,0);
-    ```
+```c++
+vector <int> replaced = replaceAll({1,3,2,3,4,3,5,3},3,0);
+```
 
 This will return a vector: {1,0,2,0,4,0,5,0}
+
