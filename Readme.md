@@ -190,10 +190,11 @@ vector <string> reversed = reverse({"Hello","World","!"});
 ```
 
 =======
+
 ```c++
 vector <string> reversed = reverse({"Hello","World","!"});
 ```
->>>>>>> 004e77dc757d9ac2953d11cc6985d9d0a846f2f6
+
 This will return a vector: {"!","World","Hello"}
 
 #### cut()
@@ -251,4 +252,3 @@ vector <int> replaced = replaceAll({1,3,2,3,4,3,5,3},3,0);
 ```
 
 This will return a vector: {1,0,2,0,4,0,5,0}
-
